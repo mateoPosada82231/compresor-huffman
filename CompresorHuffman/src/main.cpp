@@ -16,7 +16,7 @@ int main() {
                 menuDescomprimir();
                 break;
             case 3:
-                std::cout << "\nGracias por usar el compresor Huffman. ¡Hasta luego!" << std::endl;
+                std::cout << "\nGracias por usar el compresor Huffman. Hasta luego" << std::endl;
                 break;
             default:
                 std::cout << "\nOpcion invalida. Por favor, seleccione 1, 2 o 3." << std::endl;

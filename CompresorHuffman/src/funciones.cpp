@@ -81,7 +81,7 @@ void menuComprimir() {
 
     auto fin = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> duracion = fin - inicio;
-    std::cout << "Tiempo de compresión: " << duracion.count() << " segundos" << std::endl;
+    std::cout << "Tiempo de compresion: " << duracion.count() << " segundos" << std::endl;
 }
 
 void menuDescomprimir() {
@@ -121,7 +121,7 @@ void menuDescomprimir() {
 
     auto fin = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> duracion = fin - inicio;
-    std::cout << "Tiempo de descompresión: " << duracion.count() << " segundos" << std::endl;
+    std::cout << "Tiempo de descompresion: " << duracion.count() << " segundos" << std::endl;
 }
 
 std::map<char, int> calcularFrecuencias(const std::string& texto) {
