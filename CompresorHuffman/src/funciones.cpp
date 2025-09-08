@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include <bitset>
+#include <chrono>
 
 void mostrarMenuPrincipal() {
     std::cout << "\n=== COMPRESOR HUFFMAN ===" << std::endl;
@@ -19,7 +20,9 @@ void menuComprimir() {
     std::cout << "Ingrese la ruta del archivo a comprimir: ";
     std::cin.ignore();
     std::getline(std::cin, rutaArchivo);
-    
+
+    auto inicio = std::chrono::high_resolution_clock::now();
+
     // Leer el archivo
     std::string contenido;
     if (!leerArchivo(rutaArchivo, contenido)) {
@@ -75,6 +78,10 @@ void menuComprimir() {
     } else {
         std::cout << "Error: No se pudo escribir el archivo comprimido." << std::endl;
     }
+
+    auto fin = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> duracion = fin - inicio;
+    std::cout << "Tiempo de compresión: " << duracion.count() << " segundos" << std::endl;
 }
 
 void menuDescomprimir() {
@@ -83,7 +90,9 @@ void menuDescomprimir() {
     std::cout << "Ingrese la ruta del archivo .HUB a descomprimir: ";
     std::cin.ignore();
     std::getline(std::cin, rutaArchivo);
-    
+
+    auto inicio = std::chrono::high_resolution_clock::now();
+
     // Leer archivo comprimido
     std::string textoComprimido;
     std::map<char, int> frecuencias;
@@ -109,6 +118,10 @@ void menuDescomprimir() {
     } else {
         std::cout << "Error: No se pudo escribir el archivo descomprimido." << std::endl;
     }
+
+    auto fin = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> duracion = fin - inicio;
+    std::cout << "Tiempo de descompresión: " << duracion.count() << " segundos" << std::endl;
 }
 
 std::map<char, int> calcularFrecuencias(const std::string& texto) {

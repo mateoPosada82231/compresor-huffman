@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\parcia-ti\build\CMakeFiles\865383fd6de6329dabb665a2a12533a1\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\CompresorHuffman\build\CMakeFiles\f14cb5104b1ced57288418a16bad8d49\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{6B8EF805-651D-3278-A67B-F60ACC76FAEC}</UniqueIdentifier>
+      <UniqueIdentifier>{E9D9EAC8-46DB-3815-83CF-AB17DFADD1BE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
-^C:\USERS\MATEO\ONEDRIVE\DOCUMENTOS\UNI\TEORIA-DE-LA-INFORMACION\PARCIA-TI\BUILD\CMAKEFILES\865383FD6DE6329DABB665A2A12533A1\GENERATE.STAMP.RULE
+^C:\USERS\MATEO\ONEDRIVE\DOCUMENTOS\UNI\TEORIA-DE-LA-INFORMACION\COMPRESORHUFFMAN\BUILD\CMAKEFILES\F14CB5104B1CED57288418A16BAD8D49\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mateo/OneDrive/Documentos/uni/teoria-de-la-informacion/parcia-ti -BC:/Users/mateo/OneDrive/Documentos/uni/teoria-de-la-informacion/parcia-ti/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mateo/OneDrive/Documentos/uni/teoria-de-la-informacion/parcia-ti/build/CompresorHuffman.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mateo/OneDrive/Documentos/uni/teoria-de-la-informacion/CompresorHuffman -BC:/Users/mateo/OneDrive/Documentos/uni/teoria-de-la-informacion/CompresorHuffman/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mateo/OneDrive/Documentos/uni/teoria-de-la-informacion/CompresorHuffman/build/CompresorHuffman.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

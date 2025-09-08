@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\parcia-ti\src\main.cpp">
+    <ClCompile Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\CompresorHuffman\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\parcia-ti\src\funciones.cpp">
+    <ClCompile Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\CompresorHuffman\src\funciones.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\parcia-ti\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\mateo\OneDrive\Documentos\uni\teoria-de-la-informacion\CompresorHuffman\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F0CFBC0D-B3E6-3244-8E6E-FDA9BAEC6F3E}</UniqueIdentifier>
+      <UniqueIdentifier>{C034AEA7-86E3-38FD-908F-0667F9D3A407}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
