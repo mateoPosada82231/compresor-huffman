@@ -12,7 +12,8 @@ struct NodoHuffman {
     int frecuencia;
     NodoHuffman* izquierdo;
     NodoHuffman* derecho;
-    
+
+    // Constructores
     NodoHuffman(char c, int f) : caracter(c), frecuencia(f), izquierdo(nullptr), derecho(nullptr) {}
     NodoHuffman(int f) : caracter('\0'), frecuencia(f), izquierdo(nullptr), derecho(nullptr) {}
 };
@@ -44,4 +45,4 @@ bool leerArchivoHUB(const std::string& rutaArchivo, std::string& textoComprimido
                     std::map<char, int>& frecuencias);
 bool escribirArchivoTXT(const std::string& rutaArchivo, const std::string& contenido);
 
-#endif // FUNCIONES_HPP
+#endif 
