@@ -363,8 +363,7 @@ warning C4244: conversión de 'std::streamoff' a 'long'
 - **Texto aleatorio**: 0-15% de reducción
 
 ---
-
-**Desarrollado para:** Parcial 1 - Teoría de la Información  
+ 
 **Autor:** Mateo Posada Montoya
 **Fecha:** Septiembre 2025  
 **Versión:** 1.0
